@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>src.blocks</title>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;205;344;500&family=Lato:wght@400;900&display=swap"
+        rel="stylesheet">
+
+    <link href="css/discordInvite.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="w-full bg bg-1 py-32 px-8">
+        <h1 class="mb-32 mx-auto text-white text-center text-6xl font-black font-inter">src.blocks</h1>
+        <h2 class="mb-4 mx-auto text-white text-center text-7xl font-black font-inter">a next-gen gaming platform</h2>
+        <h3 class="mb-16 mx-auto text-gray-400 text-center text-4xl font-black font-inter">become part of an upcoming
+            virtual universe</h3>
+
+        <div class="text-center" id="invite">
+            <div id="discordInviteBox" class="shadow-lg rounded"></div>
+        </div>
+    </section>
+    <section class="w-full bg-white py-8 px-8">
+        <h1 class="mx-auto txt mb-8 text-center text-4xl font-black font-inter">latest update</h1>
+        <div class="bg-gray-800 text-white rounded shadow border max-w-xl mx-auto p-4">
+            <span class="text-gray-400 d-block mb-4">🗓️ Monday, November 29, 2021</span>
+            <h2 class="font-inter text-white font-black text-lg">We are proud to announce that <span
+                    class="text-gray-400">$src</span> is now [[available on PancakeSwap]]. </h2><br>
+            <div class="text-center mb-4">
+                <a href="" target="_blank"
+                    class="text-lg text-white bg text-black font-inter py-3 px-6 rounded-lg shadow-sm mx-2">Trade
+                    SRC/BNB</a>
+                <a href="https://poocoin.app/tokens/0x8c1ea32ffc60f42566fae1edd1dca8d4cb741259" target="_blank"
+                    class="text-lg text-white text-black font-inter py-3 px-6 rounded-lg shadow-sm border border-gray-200 mx-2">View
+                    Charts</a>
+            </div>
+        </div>
+    </section>
+    <section class="w-full bg pt-16 px-8">
+        <h2 class="mb-4 mx-auto text-white text-center text-7xl font-black font-inter">earn, trade, and sell $src</h2>
+        <h3 class="mx-auto text-gray-400 text-center text-4xl font-black font-inter">spend the $src you earn on a user-created catalog, or exchange it for other cryptocurrencies</h3>
+
+        <img class="mx-auto" src="imgs/catalog.png" />
+    </section>
+    <section class="w-full bg-white pt-16 px-8">
+        <h1 class="mb-4 mx-auto txt text-center text-7xl font-black font-inter">src.blocks Studio</h1>
+        <h3 class="mx-auto text-gray-400 text-center text-4xl font-black font-inter">an immersive experience
+            creation engine that lets you create anything you can imagine</h3>
+        <h3 class="mb-16 mx-auto text-gray-400 text-center text-2xl font-black font-inter">utilize content from other
+            games you have installed, such as Half-Life: Alyx, s&box, Garry's Mod, etc.</h3>
+
+        <div class="text-center">
+            <a href="#invite"
+                class="text-lg text-white bg-gray-400 text-black font-inter py-4 px-8 rounded-lg shadow-sm border border-gray-200">Coming
+                Soon</a>
+        </div>
+
+        <img class="mx-auto" src="imgs/studio.png" />
+    </section>
+    <section class="w-full bg-gray-800 py-32 px-8">
+        <h1 class="mb-4 mx-auto text-white text-center text-7xl font-black font-inter">discover countless experiences
+        </h1>
+        <h3 class="mb-16 mx-auto text-gray-400 text-center text-4xl font-black font-inter">join your friends on an
+            ever-expanding selection of multiplayer experiences made by players like you</h3>
+
+        <div class="text-center">
+            <a href="#invite"
+                class="text-lg text-white text-black font-inter py-4 px-8 rounded-lg shadow-sm border border-gray-200">Coming
+                Soon</a>
+        </div>
+    </section>
+    <section class="w-full bg-black pt-16 pb-8 px-8">
+        <p class="mb-4 mx-auto text-white text-center text-md font-inter">This project is not affiliated with Valve Software or Facepunch Studios.</p>
+        <p class="mx-auto text-gray-400 text-center text-md font-inter">Half-Life: Alyx is a trademark and/or registered trademark of Valve Corporation.</p>
+        <p class="mx-auto text-gray-400 text-center text-md font-inter">s&box and Garry's Mod are trademarks and/or registered trademarks of Facepunch Studios.</p>
+        <p class="mx-auto text-gray-400 text-center text-md font-inter">All other trademarks are property of their respective owners.</p>
+    </section>
+
+    <script src="scripts/discordInvite.js"></script>
+    <script>
+        discordInvite.init({
+            inviteCode: 'feGRpD3ayb',
+            title: 'src.blocks',
+            introText: 'JOIN OUR DISCORD FOR THE LATEST UPDATES'
+        });
+        discordInvite.render();
+    </script>
+</body>
+
+</html>

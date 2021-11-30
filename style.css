@@ -1,0 +1,18 @@
+.bg {
+    background-color: #3273EB;
+}
+
+.bg-1 {
+    background-image: url('imgs/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.txt {
+    color: #3273EB;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
